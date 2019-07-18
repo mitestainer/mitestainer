@@ -1,0 +1,10 @@
+@media screen and (max-width:485px) {
+    #menu:checked ~ .hamburger-content {
+        max-height: 100%;
+    }
+    .hamburger-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 500ms ease-out;
+    }
+}

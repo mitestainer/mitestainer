@@ -1,0 +1,61 @@
+#upper {
+    letter-spacing: 1px;
+}
+#upper span {
+    text-transform: lowercase;
+    font-weight: bold;
+}
+#menu, .hamburger label {
+    display: none;
+}
+
+
+@media screen and (max-width: 925px) {
+    #upper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0.5em;
+    }
+    #upper p, #under {
+        display: none;
+    }
+    #upper img {
+        width: 2.25em;
+        height: 2.25em;
+        flex: 0;
+        margin: 0;
+    }
+    .hamburger {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width:485px) {
+    #upper {
+        justify-content: space-between;
+    }
+    #upper p {
+        display: inline;
+        font-size: 0.75em;
+    }
+    .hamburger {
+        text-align: right;
+        flex: 0;
+    }
+    .hamburger label {
+        cursor: pointer;
+        padding-right: 1em;
+        font-size: 1.5em;
+    }
+    .hamburger label {
+        display: inline;
+    }
+    #menu:checked +label i {
+        transform: rotate(180deg);
+    }
+    #menu +label i {
+        transition: transform 375ms ease-out;
+        color: var(--mycolor);
+    }
+}
