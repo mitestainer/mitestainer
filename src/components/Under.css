@@ -1,3 +1,9 @@
+#navbar .under {
+    display: initial
+}
+.content .under {
+    display: none
+}
 .footer {
     background-color: #222;
     color: #fafafa;
@@ -5,13 +11,26 @@
     margin-top: 1em !important;
     text-transform: lowercase;
 }
+.under p {
+    margin: 0;
+    text-align: center;
+}
 
 @media screen and (max-width: 925px) {
+    #navbar .under {
+        display: none
+    }
+    .content .under {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #222;
+        padding: 0.5em;
+        justify-content: space-around
+    }
     .footer {
         right: 0;
         bottom: 0;
         left: 0;
-        width: 100%;
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -24,9 +43,9 @@
 }
 
 @media screen and (max-width:485px) {
-    
-    .footer {
-        flex-direction: column;
+    .content .under {
+        flex-direction: column-reverse;
+        align-items: center
     }
     .footer p {
         margin-bottom: 0.5em;

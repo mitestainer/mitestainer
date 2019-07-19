@@ -8,10 +8,10 @@ export default () => {
         return year.getFullYear()
     }
     return (
-        <div id='under'>
+        <div className='under'>
             <Social />
             <p className='footer'>
-                &copy; mitestainer <span className='year'>{displayYear()}</span>
+                &copy; mitestainer {displayYear()}
             </p>
         </div>
     )
