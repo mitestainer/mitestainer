@@ -5,7 +5,7 @@
     text-transform: lowercase;
     font-weight: bold;
 }
-#menu, .hamburger label {
+#menu {
     display: none;
 }
 
@@ -15,7 +15,7 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        margin: 0.5em;
+        padding: 0.5em 1em;
     }
     #upper p, #under {
         display: none;
@@ -43,19 +43,13 @@
         text-align: right;
         flex: 0;
     }
-    .hamburger label {
-        cursor: pointer;
-        padding-right: 1em;
-        font-size: 1.5em;
-    }
-    .hamburger label {
+    #menu {
         display: inline;
-    }
-    #menu:checked +label i {
-        transform: rotate(180deg);
-    }
-    #menu +label i {
-        transition: transform 375ms ease-out;
+        cursor: pointer;
+        font-size: 1.5em;
         color: var(--mycolor);
+        border: 0;
+        background-color: unset;
+        padding: 0
     }
 }
