@@ -1,0 +1,57 @@
+#projects {
+    padding-bottom: 2em;
+}
+#disclaimer {
+    background-color: #ff9630b3;
+    font-size: 0.85em;
+    border-left: 0.5em solid #ff9630;
+}
+h3 {
+    margin: 0.5em 0 1em;
+}
+#filter {
+    display: flex;
+    background-color: #eee;
+    border-left: 0.5em solid #ccc;
+}
+#disclaimer, #filter {
+    padding: 0.5em;
+    border-radius: 0.375em;
+}
+.filter-label {
+    display: inherit;
+    align-items: center;
+    margin-right: 1em;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    cursor: pointer;
+    user-select: none;
+}
+.project-box {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+    margin-top: 2.5em;
+}
+.feature {
+    border-radius: 0.15em;
+    margin: 0 0.15em;
+    padding: 0.1em 0.5em;
+    font-size: 0.7em;
+}
+.project-wrapper {
+    width: 100%;
+    display: inherit;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:485px) {
+  #filter {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .filter-label {
+    margin-right: 0;
+  }
+}

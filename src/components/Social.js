@@ -1,6 +1,6 @@
 import React from 'react'
 import './Social.css'
-import {socialList} from './utils'
+import socialList from '../db/socialList'
 
 export default () => {
     const list = Object.values(socialList)

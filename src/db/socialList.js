@@ -1,23 +1,4 @@
-const menuList = {
-    home: {
-        link: '#welcome-section', 
-        title: 'Home'
-    },
-    aboutMe: {
-        link: '#about-me', 
-        title: 'About Me'
-    },
-    projects: {
-        link: '#projects', 
-        title: 'Portfolio'
-    },
-    contact: {
-        link: '#contact', 
-        title: 'Contact'
-    }
-}
-
-const socialList = {
+export default {
     twitter: {
         link: "https://twitter.com/mitestainer1/",
         icon: {
@@ -59,5 +40,3 @@ const socialList = {
         title: "Reach me out on Reddit"
     }
 }
-
-export {menuList, socialList}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './MenuMobile.css'
-import {menuList} from './utils'
+import menuList from '../db/menuList'
 
 export default ({closeMenu, menuMode, movement}) => {
     const menu = Object.values(menuList)

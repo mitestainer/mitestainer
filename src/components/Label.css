@@ -1,0 +1,32 @@
+#label-html:hover, .feature-html {
+    background-color: #f06529;
+}
+
+#label-css:hover, .feature-css {
+    background-color: #0081f2;
+}
+
+
+#label-js:hover, .feature-js {
+    background-color: #f7df1e;
+}
+
+#label-fcc:hover, .feature-fcc {
+    background-color: #006400;
+    color: #fff;
+}
+
+#label-bootstrap:hover, .feature-bootstrap {
+    background-color: #563d7c;
+    color: #fff;
+}
+
+#label-react:hover, .feature-react {
+    background-color: #61dbfb;
+    color: #000;
+}
+
+#label-nodejs:hover, .feature-nodejs {
+    background-color: #72d62b;
+    color: #000;
+}

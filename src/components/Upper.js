@@ -2,7 +2,7 @@ import React from 'react'
 import './Upper.css'
 import MenuList from './MenuList'
 import profilePic from '../images/profile.jpg'
-import {menuList} from './utils'
+import menuList from '../db/menuList'
 
 export default ({openMenu}) => {
     return (
