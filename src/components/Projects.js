@@ -10,13 +10,6 @@ export default class extends Component {
         activeFeatures: []
     }
     handleSort = (feature) => {
-        // debugger
-        // console.log('Before: ' + this.state.activeFeatures)
-        // if (this.state.activeFeatures.length === 0) {
-        //     this.setState({
-        //         activeFeatures: feature
-        //     })
-        // }
         if (this.state.activeFeatures.includes(feature)) {
             this.setState({
                 activeFeatures: [...this.state.activeFeatures].filter(item => item !== feature)
@@ -26,24 +19,16 @@ export default class extends Component {
                 activeFeatures: [...this.state.activeFeatures, feature]
             })
         }
-        // console.log('After : ' + this.state.activeFeatures)
     }
     displayProjects = () => {
         const projects = Object.values(projectList)
         if (this.state.activeFeatures.length === 0) {
             return projects.map((item, i) => <Card key={i} content={item} />)
         } else {
-            // return projects.map((item, i) => <Card key={i} content={item} />).filter(item => this.state.activeFeatures.includes(item.props.content.features))
-            // 
-            // return projects.filter(item => arr1.some(r=> arr2.includes(r))).map((item, i) => <Card key={i} content={item} />)
-            // const ft = projects.map(item => item.features)[0]
-            // return this.state.activeFeatures.some(el => ft.includes(el)) && projects.map((item, i) => <Card key={i} content={item} />)
-            // return projects.filter(item => item.features.length > 1)
             let filtered = []
             for (let i = 0; i < projects.length; i++) {
                 let ft = projects[i].features
                 if (this.state.activeFeatures.some(el => ft.includes(el))) {
-                    // return <Card key={i} content={projects[i]} />
                     filtered.push(projects[i])
                 }
             }
@@ -65,8 +50,8 @@ export default class extends Component {
                         {features.map((item, i) => <Label key={i} feature={item} active={activeFeatures} handleSort={this.handleSort} />)}
                     </div>
                 </div>
-                <div class="project-box">
-                    <div class="project-wrapper">
+                <div className="project-box">
+                    <div className="project-wrapper">
                         {this.displayProjects()}
                     </div>
                 </div>

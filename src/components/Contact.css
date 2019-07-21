@@ -5,6 +5,15 @@
     align-self: center;
     text-align: center;
 }
+#jobs {
+  margin: 1.5em 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.job {
+  min-width: 12em;
+}
 form {
     width: 50%;
     display: flex;

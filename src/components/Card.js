@@ -18,11 +18,11 @@ export default ({content}) => {
     }
     const pictures = (input) => {
         if (input.length === 2) {
-            return pics.map((pic, i) => <img src={pic} alt={title} className={`slide${i + 4}`} />)
+            return input.map((pic, i) => <img src={pic} alt={title} className={`slide${i + 4}`} key={i} />)
         } else if (input.length === 3) {
-            return pics.map((pic, i) => <img src={pic} alt={title} className={`slide${i + 1}`} />)
+            return input.map((pic, i) => <img src={pic} alt={title} className={`slide${i + 1}`} key={i} />)
         } else {
-            return input.map(pic => <img src={pic} alt={title} />)
+            return input.map((pic, i) => <img src={pic} alt={title} key={i} />)
         }
     }
     return (
