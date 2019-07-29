@@ -9,7 +9,7 @@ export default class extends Component {
     state = {
         activeFeatures: []
     }
-    handleSort = (feature) => {
+    handleSort = feature => {
         if (this.state.activeFeatures.includes(feature)) {
             this.setState({
                 activeFeatures: [...this.state.activeFeatures].filter(item => item !== feature)

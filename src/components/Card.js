@@ -3,7 +3,7 @@ import './Card.css'
 
 export default ({content}) => {
     const {title, pics, features, lastUpdate, links} = content
-    const featureFix = (input) => {
+    const featureFix = input => {
         switch (input) {
             case 'html':
             case 'css':
@@ -16,7 +16,7 @@ export default ({content}) => {
                 return input.replace(input[0], input[0].toUpperCase())
         }
     }
-    const pictures = (input) => {
+    const pictures = input => {
         if (input.length === 2) {
             return input.map((pic, i) => <img src={pic} alt={title} className={`slide${i + 4}`} key={i} />)
         } else if (input.length === 3) {

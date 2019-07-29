@@ -4,7 +4,7 @@ import socialList from '../db/socialList'
 
 export default () => {
     const list = Object.values(socialList)
-    const setIcon = (input) => {
+    const setIcon = input => {
         if (input.stacked) {
             return (
                 <span className="fa-stack fa-1x dummy">
