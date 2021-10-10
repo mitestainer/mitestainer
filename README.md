@@ -18,6 +18,6 @@ Reach me out [here](https://linkedin.com/in/mitestainer).</div>
 
 ### 🏗️ Languages and Tools
 
-![](https://res.cloudinary.com/dvk7f4ui0/image/upload/v1633885439/mine/image2_iropud.png)
+[![](https://res.cloudinary.com/dvk7f4ui0/image/upload/v1633885439/mine/image2_iropud.png)](https://github.com/mitestainer)
 
 [![](https://github-readme-stats.vercel.app/api?username=mitestainer&theme=nord)](https://github.com/mitestainer)
