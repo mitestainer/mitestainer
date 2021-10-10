@@ -5,7 +5,7 @@
 Reach me out [here](https://linkedin.com/in/mitestainer).</div>
 
 - 👨‍💻 I do front-end stuff
-- 🛠️ Freelancing at [Sauvara](https://www.notion.so/sauvara.com)
+- 🛠️ Freelancing at [Sauvara](https://sauvara.com/)
 - 🎯 Focused in React
 
 ### 🌱 Currently learning
