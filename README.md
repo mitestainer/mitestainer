@@ -1,9 +1,8 @@
 # Hi! 👋
 
-<div style="text-align:center; margin-bottom:25px">
-I'm Matheus and I'm a JavaScript developer.
+<div align="center">I'm Matheus and I'm a JavaScript developer.
 
-<p style="font-size: 14px">Reach me out <a href="[https://linkedin.com/in/mitestainer](https://linkedin.com/in/mitestainer)">here</a>.</p></div>
+Reach me out [here](https://linkedin.com/in/mitestainer).</div>
 
 - 👨‍💻 I do front-end stuff
 - 🛠️ Freelancing at [Sauvara](https://www.notion.so/sauvara.com)
