@@ -5,8 +5,8 @@
 Reach me out [here](https://linkedin.com/in/mitestainer).</div>
 
 - 👨‍💻 I do front-end stuff
-- 🛠️ Freelancing at [Sauvara](https://sauvara.com/)
-- 🎯 Focused in React
+- 🛠️ Developer at [Apto](https://apto.vc/)
+- 🎯 Focused in React and Next.js
 
 ### 🌱 Currently learning
 
