@@ -10,11 +10,12 @@ Reach me out [here](https://linkedin.com/in/mitestainer).</div>
 
 ### 🌱 Currently learning
 
+- Svelte
 - TypeScript
-- Jest
 - Cypress
 - Storybook
-- GraphQL
+<!-- - Jest -->
+<!-- - GraphQL -->
 
 ### 🏗️ Languages and Tools
 
